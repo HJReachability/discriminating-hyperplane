@@ -33,7 +33,7 @@ The following run each SL-DH experiment from the paper. All hyperparameters are 
 
 ### Modules for RL-DH:
 
-`ppo.py` contains code for training agents for CartPole and HalfCheetah. `ppo.py` currently allows PPO, PPO Lagrangian, PPO with SL-DH, and PPO with RL-DH. Note that PPO with SL-DH only works for CartPole and not HalfCheetah.
+`ppo.py` contains code for training agents for CartPole and HalfCheetah. `ppo.py` currently allows PPO, PPO Lagrangian, PPO with SL-DH, and PPO with RL-DH. Note that PPO with SL-DH only works for CartPole and not HalfCheetah. This codebase is built on top of the following repository: https://github.com/akjayant/PPO_Lagrangian_PyTorch?tab=readme-ov-file.
 
 See training scripts to create SL-DH controllers. The main algorithm can be seen in the training loop in all training scripts.
 
